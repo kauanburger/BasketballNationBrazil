@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Roboto&family=Ubuntu&display=swap&family=Geologica:wght@600&display=swap&family=Anton&family=Geologica:wght@600&display=swap&&family=Yanone+Kaffeesatz:wght@600&display=swap&family=Noto+Sans+JP:wght@500&family=Ubuntu&family=Rubik&family=Biryani&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.Cabecalho {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #000000;
+    height: 130px;
+}
+
+.logo img {
+    margin-left: 220px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+a {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.botao {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 600px;
+    text-align: center;
+    background-color: #000000;
+    width: 100px;
+    height: 50px;
+}
+
+.botao1 {
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 900px;
+    text-align: center;
+    background-color: #000000;
+    width: 100px;
+    height: 50px;
+}
+
+.botao2 {
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 1200px;
+    text-align: center;
+    background-color: #000000;
+    width: 100px;
+    height: 50px;
+}
+
+.botao3 {
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 1500px;
+    text-align: center;
+    background-color: #000000;
+    width: 100px;   
+    height: 50px;
+}

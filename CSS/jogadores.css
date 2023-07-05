@@ -1,0 +1,90 @@
+.jogador {
+    list-style: none;
+    display: flex;
+    padding-left: 105px;
+}
+
+.celtics {
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    width: 419px;
+    height: 630px;
+}
+
+.celtics img {
+    border-radius: 30px;
+}
+
+
+.texto {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #01844E;
+    width: 404.66px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.texto h2 {
+    margin-left: 10px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.posicao {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+}
+
+.linha5 {
+    margin-left: 10px;
+    position: absolute;
+    top: 50%;
+    left: 10.5%;
+    transform: translate(-40%, -10.5%);
+    border: 1.9px solid white;
+    width: 40px;
+    border-radius: 5px;
+
+}
+
+.posicao1 {
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 10.5%;
+    transform: translate(-35%, -10.5%);
+}
+
+.radio {
+    position: absolute;
+    right: 10%;
+    top: 8%;
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    color: #01844E;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#stats {
+    appearance: none;
+}
+
+#stats:checked~.texto {
+    pointer-events: none;
+}
+
+#stats:checked ~ .imagem{
+    pointer-events: none;
+}

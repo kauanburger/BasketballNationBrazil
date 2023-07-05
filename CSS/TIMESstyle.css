@@ -1,0 +1,132 @@
+.noticia1 {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(55deg, #0F0516 70%, #221133);
+    width: 100vw;
+    height: 100vw;
+}
+
+.box1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 105px;
+    width: 1290px;
+    height: 1700px;
+    border-radius: 30px;
+    background-image: linear-gradient(45deg, #11071d , #2b1a32)  
+}
+
+.texto1{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.linha{
+    border-radius: 5px;
+    border-width: 0; 
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top: 5px solid #fff;
+}
+
+.texto2{
+    color: white;
+    font-size: 23px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.texto3{
+    color: white;
+    font-size: 23px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left: 50px;
+}
+.regioes{
+    padding: 50px;
+    list-style: none;
+    display: flex;
+}
+
+.times{
+    margin-right: 80px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+}
+
+.times img{
+    height: 105.625px;
+    width: 169px;
+}
+
+
+.rodape{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.rodape img{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    height: 100px;
+    width: auto;
+}
+
+.nos{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.nos h2{
+    font-size: 30px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 5px;
+}
+
+.nos h3{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+.contato{ 
+   position: absolute;
+   top: 30%;
+   left: 70%;
+}
+
+.contato h1{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.redes{
+    display: flex;
+}
+
+.redes img{
+    margin-top: 40px;
+    height: 30px;
+    width: auto;
+}
+
+.whats{
+    margin-left:50px;
+}
+
+.twitter{
+    margin-left:100px;
+}
+
+
